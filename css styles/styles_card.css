@@ -1,0 +1,6 @@
+       .wrapper {
+            display: flexbox; 
+            border: 4px solid rgb(16, 17, 15);
+            padding: 5px; 
+            background-color: aquamarine;
+        }

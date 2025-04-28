@@ -1,0 +1,12 @@
+$main-color: red;
+
+.container {
+    display:flex;
+}
+.some {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    & div {
+        color:red
+    }
+}

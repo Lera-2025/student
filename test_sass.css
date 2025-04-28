@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.some {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.some div {
+  color: red;
+}
+
+/*# sourceMappingURL=test_sass.css.map */
