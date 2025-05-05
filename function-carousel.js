@@ -21,16 +21,7 @@ stopbtn.mouseover(function() {
   downS = true;
 
 })
-.mouseout(function() {
-  downS = false;
-});
 
-// (".carousel-entry-img").hover(function(){
-//   (".carousel-entry-img").slick('slickPause')
-// });
-
-const imgbtn = document.querySelectorAll('.carousel-entry-img');
-let j = 0;
 function btn_next() {
     imgbtn[j].classList.add('active');
     j = (j + 1) % images.length;
