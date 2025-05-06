@@ -1,3 +1,4 @@
+
 #carousel {
     position: relative;
     display: flex;
@@ -22,24 +23,13 @@
 .carousel-entry-img.active {opacity: 1;}
 
 .carousel-entry{
-    padding: 5px; 
-    margin: 0 auto;
-    max-width: 50%;
-    text-align: center;
-    background-color: rgb(246, 208, 133);
-    flex: 1;
-    font-weight: bold;
-    font-size: large;
-}
-
-.carousel-entry2{
     display: flex;
     padding: 5px; 
     margin: 0 auto;
     max-width: 50%;
-    background-color: antiquewhite;
-    flex: 1;
     text-align: center;
+    background-color:  antiquewhite;
+    flex: 1;
     font-weight: bold;
     font-size: large;
 }
@@ -55,7 +45,7 @@
 
 .button-prev, .button-next {
   position: fixed;
-  inset-block-start: 25%;
+  inset-block-start: calc(37px + 25%);
   transform: translateY(-50%);
   border: none;
   inline-size: 5vw;
@@ -65,12 +55,6 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-/* .button-prev[aria-disabled="true"],
-.button-next[aria-disabled="true"] {
-  opacity: 0.5;
-  pointer-events: none;
-} */
 
 .button-prev {
   inset-inline-start: 25%;
