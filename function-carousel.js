@@ -36,19 +36,3 @@ btnnext.addEventListener("click", ()=>{
   entr.innerHTML = entry[i];
   document.body.append(entr);
 })
-
-
-
-// const btn_prev = document.querySelector("button-prev");
-// const btn_next = document.querySelector("button-next");
-// btn_prev.addEventListener("click", ()=>{
-//   images[i].style.display = 'none';
-//   console.log(click)
-//   i = i - 1;
-//   if(i < 0){
-//       i = images.length - 1;
-//   }
-//   images[i].style.display = 'block';
-// })
-
-
